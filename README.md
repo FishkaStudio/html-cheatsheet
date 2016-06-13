@@ -244,7 +244,7 @@
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
-      <a class="title-entry__link" href="#">Moudrý děda všeumělя</a>
+      <a class="title-entry__link" href="#">Moudrý děda všeuměl</a>
     </h3>
 
     <time class="title-entry__datetime">13. 06. 2016 13:24:20</time>
