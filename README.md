@@ -265,7 +265,7 @@
   </div>
 
   <div class="entry__tags tags-entry">
-    <h4 class="tags-entry__tilte">Метки</h4>
+    <h4 class="tags-entry__tilte">Tagy</h4>
 
     <ul class="tags-entry__list">
       <li class="tags-entry__item">
