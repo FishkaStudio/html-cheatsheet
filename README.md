@@ -175,7 +175,9 @@
   <h4 class="widget__tilte">Winehouse má 32% nárůst v online platbách</h4>
 
   <div class="widget__content">
-    <p>O výhodách online plateb není třeba dlouze uvažovat - na jedné straně jsou to zákazníci, kteří mohou za zboží zaplatit okamžitě a vyhnout se tak nepříjemným dobírkám či zdlouhavé platbě bankovním převodem, na druhé straně jsou to obchodníci, kterým neleží ...</p>
+    <p>O výhodách online plateb není třeba dlouze uvažovat - 
+    na jedné straně jsou to zákazníci, kteří mohou za zboží 
+    zaplatit okamžitě a vyhnout se ...</p>
 
     <a class="widget__link" href="#">Číst dál...</a>
   </div>
@@ -189,83 +191,77 @@
     <h3 class="news__title">Čerstvé zprávy</h3>
 
     <ul class="news__list">
-        <!-- к классу элемента добавляем класс блока,
-             чтобы создать новое пространство имён -->
+        <!-- ke classu prvku přidáváme nový class bloku
+             pro vytvoření nového oboru názvů -->
         <li class="news__item item-news">
-            <h4 class="item-news__title">Соревнования среди воблы по конькобежному спорту</h4>
+            <h4 class="item-news__title">Václav Bělohradský chce do Senátu za ČSSD a zelené</h4>
             <div class="item-news__text">
-              <p>Победила команда килек из Петрозаводска</p>
+              <p>Filozof Václav Bělohradský (72) bude v říjnových volbách do Senátu v Praze 6 
+              společným kandidátem ČSSD a Strany zelených. Potvrdil...</p>
 
-              <a href="#" class="item-news__link">Читать дальше</a>
+              <a href="#" class="item-news__link">Pokračovat ve čtení</a>
             </div>
         </li>
 
         <li class="news__item item-news">
-            <h4 class="item-news__title">Учёные уточнили роль напильника в уходе за ногтями</h4>
+            <h4 class="item-news__title">Airbus podepsal dohodu o stavbě závodu na vrtulníky v Číně</h4>
             <div class="item-news__text">
-              <p>Британские учёные высоко оценили вклад
-                напильника в отращивание полутораметровых ногтей.</p>
+              <p>Airbus Helicopters, který je největším světovým dodavatelem komerčních vrtulníků, 
+              dokončil dohodu o prodeji 100 helikoptér H135 čínskému...</p>
 
-              <a href="#" class="item-news__link">Не читать дальше</a>
+              <a href="#" class="item-news__link">Pokračovat ve čtení</a>
             </div>
         </li>
     </ul>
 </div>
 ```
 
-### Статья или пост в блоге (простой вариант)
+### Článek nebo příspěvek v blogu (obyčejná varianta)
 
 ```html
 <article class="article">
-  <h3 class="article__title">Нащупываем чакры у пучка петрушки</h3>
-  <time class="article__datetime">32 мая, 10:87</time>
+  <h3 class="article__title">Je Osvětim symbolem holokaustu?</h3>
+  <time class="article__datetime">25. 04. 2016 8:54:28</time>
 
   <div class="article__author author-article">
-    <img class="author-article__img" src="userpic.png" alt="Клешня Андреевна">
-    <a class="author-article__link" href="#">Клешня Андреевна Долгорукая</a>
-    <div class="author-article__desc">Наш эксперт по чакрам</div>
+    <img class="author-article__img" src="userpic.png" alt="Lenka Hoffmannová">
+    <a class="author-article__link" href="#">Lenka Hoffmannová</a>
+    <div class="author-article__desc">hoffmannova.blog.idnes.cz</div>
   </div>
 
   <div class="article__content">
-    Сходите на рынок и купите у старушек пучок петрушки грамм на 100.
-    Как следует переберите, очистите от жуков и гусениц. Жуков отдайте поиграться
-    коту, гусениц поселите в горшок с кактусами, пусть одна будет Джоном,
-    вторая Билли, а у вас в горшке теперь будет Дикий Запад. Вернитесь
-    к пучку петрушки. Ласково взгляните на него и как следует почешите
-    за ухом, можно себе или коту. Перевяжите атласной ленточкой,
-    непременно завяжите бант. Поздравляем! Теперь у вас есть полностью
-    одомашненный пучок петрушки, который будет весело бегать за вами
-    по пятам и проращивать свои семена в ваших тапках.
+    Hitler ve 30. letech usiloval o spojenectví s Polskem, které mu mělo pomoci 
+    dobýt Sovětský svaz. V té době Polsko usilovalo o vystěhování svých asi 3 milionů 
+    Židů do Palestiny pod správou Velké Británie. Představitelé Polska spolupracovali 
+    s polskými Židy a žádali Velkou Británii o zvýšení kvót přistěhovalectví do Palestiny.
   </div>
 </article>
 ```
 
-### Статья или пост в блоге (сложный вариант)
+### Článek nebo příspěvek v blogu (složitá varianta)
 
 ```html
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
-      <a class="title-entry__link" href="#">Резиновые уточки как способ самопознания</a>
+      <a class="title-entry__link" href="#">Moudrý děda všeumělя</a>
     </h3>
 
-    <time class="title-entry__datetime">32 мая, 10:87</time>
+    <time class="title-entry__datetime">13. 06. 2016 13:24:20</time>
   </header>
 
   <div class="entry__author author-entry">
-    <img class="author-entry__img" src="userpic.png" alt="Василиса Сергеевич">
+    <img class="author-entry__img" src="userpic.png" alt="Tomáš Flaška">
 
-    <a class="author-entry__link" href="#">Василиса Сергеевич</a>
+    <a class="author-entry__link" href="#">Tomáš Flaška</a>
   </div>
 
   <div class="entry__content">
-    Достаньте с чердака коробку с полусотней резиновых уточек,
-    оставшихся после празднования нового года. Из уточек
-    и горящих свечей выложите пентаграмму на полу комнаты.
-    Сядьте посередине в позу лотоса, в каждую руку возьмите
-    по немецко-бразильскому словарю, прокашляйтесь, наберите
-    полную грудь воздуха и громко и уверенно,
-    с полной самоотдачей скажите "Кря!"
+    "Všeci tu kradú", praví on. Jeden vtip dodává: "jenom já dotujem". 
+    Ale ministr financí je v našich zemích přeci jen rarita. Rozumí 
+    všemu. Teda aspoň se tak tváří. Chápu že strážce státní kasy musí 
+    mít názor na financování sociálních dávek, hasičů, školství a dalších 
+    položek. Proto musí vyjednávat se všemi zúčastněnými.
   </div>
 
   <div class="entry__tags tags-entry">
@@ -273,13 +269,13 @@
 
     <ul class="tags-entry__list">
       <li class="tags-entry__item">
-        <a class="tags-entry__link" href="#">хоровод своими руками</a>
+        <a class="tags-entry__link" href="#">dotace</a>
       </li>
       <li class="tags-entry__item">
-        <a class="tags-entry__link" href="#">фарфоровые тапки</a>
+        <a class="tags-entry__link" href="#">blog</a>
       </li>
       <li class="tags-entry__item">
-        <a class="tags-entry__link" href="#">гуталин в кулинарии</a>
+        <a class="tags-entry__link" href="#">názor</a>
       </li>
     </ul>
   </div>
@@ -287,13 +283,13 @@
   <div class="entry__actions actions-entry">
     <ul class="actions-entry__list">
       <li class="actions-entry__item actions-entry__item--read">
-        <a class="actions-entry__link" href="#">238 ответов</a>
+        <a class="actions-entry__link" href="#">238 komentářů</a>
       </li>
       <li class="actions-entry__item actions-entry__item--write">
-        <a class="actions-entry__link" href="#">Написать в спортлото</a>
+        <a class="actions-entry__link" href="#">Komentovat</a>
       </li>
       <li class="actions-entry__item actions-entry__item--share">
-        <a class="actions-entry__link" href="#">Поделиться</a>
+        <a class="actions-entry__link" href="#">Sdílet</a>
       </li>
     </ul>
   </div>
